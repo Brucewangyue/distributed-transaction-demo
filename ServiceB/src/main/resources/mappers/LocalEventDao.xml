@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vv.serviceb.dao.LocalEventDao">
+    <select id="getUnSentList" resultType="LocalEvent">
+        select * from localEvent where status = 0;
+    </select>
+
+    <update id="updateStatusToSent">
+        update localEvent set status =1 where id = #{id}
+    </update>
+</mapper>
