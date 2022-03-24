@@ -20,4 +20,4 @@
 
 **事务消息**
 - txmq-client-a
-- txmq-clent-b
+- txmq-client-b

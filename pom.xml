@@ -22,6 +22,8 @@
         <module>lcn-tm</module>
         <module>lcn-server-a</module>
         <module>lcn-server-b</module>
+        <module>txmq-client-a</module>
+        <module>txmq-client-b</module>
     </modules>
 
     <dependencyManagement>
